@@ -1,0 +1,13 @@
+{
+  "name": "recipe1404", 
+  "title": "Pho Noodle Soup", 
+  "date": "2013-09-01", 
+  "description": "Pho Noodles in a Savory Broth. Yummy!", 
+  "suggestedRecipe": "chickensatay.jpg",
+  "suggestedRecipeTitle":"Chicken Satay",
+  "suggestedRecipeTxt":"Chicken Satay skewers are a great start to a meal of pho!",
+  "images": ["pho.png","pho-2.jpg","pho-3.jpg","pho-4.jpg"],
+  "ingredients": ["thin rice noodles", "tomatoes", "onions", "thinly sliced beef", "garlic", "basil","lemongrass"]
+  
+}
+

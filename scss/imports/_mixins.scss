@@ -1,0 +1,24 @@
+
+
+@mixin svg-icon ($bg-color,$url-string){
+	
+	 background-color: $bg-color;
+     -webkit-mask-image: url($url-string);
+     mask-image: url($url-string);
+}
+
+@mixin box-drop-shadow ($opacity){
+	
+	-webkit-box-shadow: 4px -1px 13px -1px rgba(0,0,0,$opacity);
+	-moz-box-shadow: 4px -1px 13px -1px rgba(0,0,0,$opacity);
+	box-shadow: 4px -1px 13px -1px rgba(0,0,0,$opacity);
+}
+
+@mixin styling-text ($font,$font-weight,$font-size,$font-color){
+	
+	font-family:$font, arial, sans-serif;
+	font-weight:$font-weight;
+	font-size:$font-size;
+	color:$font-color;
+	
+}

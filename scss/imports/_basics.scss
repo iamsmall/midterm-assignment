@@ -1,0 +1,176 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	
+	@include styling-text('Open Sans',400,100%,$dark-gray);
+}
+
+a {
+	text-decoration: none;
+	color:$reddish;
+}
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	max-width: 100em;
+	margin: 0 auto;
+}
+
+header {
+	color: $reddish;
+	padding: 1rem;
+
+	h1{
+
+		@include styling-text('Open Sans',300,3.5em,$dark-gray);
+	}
+
+	h1 span{
+		color:$main-nav-color;
+	}
+
+	h2{
+
+		@include styling-text('Open Sans',600,1em,$main-nav-color);
+	}
+
+	@media (min-width: $break-one){
+		padding: 0x;
+	}
+}
+
+.info {
+	width: 100%;
+	background-color: $tan;
+	padding: .5rem;
+	border: 1px solid $reddish;
+	font-size: 0.875rem;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	float: left;
+
+	th {
+		text-align: left;
+	}
+
+	ul {
+		float: left;
+		width: 40%;
+		@media (min-width: $break-one) {
+			margin-top: 1em;
+			width: 100%;
+		}
+	}
+
+	table {
+		float: right;
+		width: 40%;
+		@media (min-width: $break-one) {
+			float: none;
+			width: 100%;
+		}
+	}
+
+	@media (min-width: $break-one) {
+		position: absolute;
+		top: 0;
+		left: -12rem;
+		width: 11rem;
+	}
+}
+
+
+article {
+	margin: 0 1em 0 1em;
+	position: relative;
+
+	h2 {
+		@include styling-text('Open Sans',300,2em,#666);
+	}
+	@media (min-width: $break-one) {
+		margin: 2em 0 0 2em;
+	}
+}
+
+blockquote {
+	width: 100%;
+	padding: 1em;
+	font-size: 1.5em;
+	color: $reddish;
+	font-style: italic;
+	@media (min-width: $break-one) {
+		float: right;
+		width: 40%;
+	}
+}
+
+p {
+	margin: 1em 0;
+}
+
+ul {
+	list-style: none;
+}
+img {
+	
+	width: 100%;
+	height: auto;
+}
+/*nav a:before {
+	padding-left: 1em;
+	content: "Q";
+	}*/
+
+	.p-reviews .t-reviews,
+	.p-recipes .t-recipes { 
+		color: #fff; 
+		background: $reddish; 
+	} 
+
+.home-icons{
+	
+}
+
+
+
+ @font-face {
+        font-family: 'icomoon';
+        src:url('../fonts/icomoon.eot');
+        src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/icomoon.woff') format('woff'),
+            url('../fonts/icomoon.ttf') format('truetype'),
+            url('../fonts/icomoon.svg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+
+ [data-icon]:before {
+        font-family: 'icomoon';
+        content: attr(data-icon);
+        speak: none;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+    }
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,82 @@
+
+.suggested-recipies{
+	
+	position: relative;
+    width: 18rem;
+    height: 25rem;
+    background: #fff;
+    border:1px solid #666;
+    color:#510073;
+    float: right;
+    
+    @include box-drop-shadow(0.15);
+
+    
+    h1{
+    	font-weight:300;
+    	text-align:center;
+    }
+
+    p{
+    	padding:2px;
+    }
+
+   
+
+    @media(max-width:1300px){
+    		
+    		margin-top: 8rem;
+    		margin-right:4rem;
+    }
+
+    @media (max-width:1024px) and (max-height:768px){
+
+    	width:18rem;
+    	margin-right: 5rem;
+    	margin-top: 8.8rem;
+       
+    }
+
+
+    @media (max-width:768px) and (max-height:1024px){
+
+   		width: 17rem;
+    	height: 20rem;
+    	margin-top: 8.8rem;
+        
+    }
+
+    @media(max-width:768px){
+
+    		width: 15rem;
+    	height: 25rem;
+    	margin: 8rem auto;
+    }
+
+
+    @media(max-width:500px){
+
+    		width: 15rem;
+    	height: 25rem;
+    	margin: 0 auto;
+    }
+
+
+    @media(max-width:375px){
+
+    	width: 15rem;
+    	height: 25rem;
+    	margin: 0 auto;
+    	float:none;
+    	
+    	h1{
+
+    		font-size:1em;
+    	}
+
+    	
+
+    	
+
+    }
+}

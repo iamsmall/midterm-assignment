@@ -1,0 +1,18 @@
+
+
+
+
+{
+  "name": "recipe1309", 
+  "title": "Guacamole", 
+  "date": "2013-09-01", 
+  "description": "Guacamole is such an easy and versatile dish. So simple so good!", 
+  "suggestedRecipe": "tortillachips.jpeg",
+  "suggestedRecipeTitle":"Cocoa Spiced Tortilla Chips",
+  "suggestedRecipeTxt":"Cocoa Spiced Tortilla Chips would be a show stopper at any party!",
+  "images": ["guacamole-1.jpg","guacamole-2.jpg","guacamole-3.jpg","guacamole-4.jpg"],
+  "ingredients": ["avacados", "tomatoes", "onions", "scallions", "garlic", "limes"]
+  
+}
+
+

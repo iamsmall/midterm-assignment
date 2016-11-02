@@ -1,0 +1,82 @@
+.recipe-nav-bar{
+	
+	display:flex;
+	flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    align-items:center;
+
+    background:$main-nav-color;
+
+    height:3rem;
+    width:60%;
+
+    @media(max-width:21rem){
+
+    height:3rem;
+    width:100%;
+
+    }
+
+     @media(max-width:1000px){
+
+      width:60%;
+
+     }
+
+
+     @media(max-width:375px){
+
+      width:100%;
+
+     }
+
+
+    
+
+    .recipe-nav-btn{
+      	display: flex;
+        align-items: flex-start;
+        text-align:center;
+      	width: 30.2rem;
+      	height:3rem;
+      	cursor:pointer;
+      	@include styling-text('Open Sans',400,1em,$nav-text-color);
+
+      	
+        span {
+            margin-top:.8rem;
+            margin-left:.4rem;
+            
+        }
+
+        .icon{
+          margin-right:.3rem;
+          
+        }
+
+
+        span:hover{
+          color:white;
+          
+        }
+
+        @media(max-width:1000px){
+
+        font-size:.7em;
+        
+      }
+
+
+        @media(max-width:375px){
+
+        font-size:.6em;
+
+       }
+   
+
+     }
+
+   
+    
+}

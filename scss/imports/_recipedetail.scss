@@ -1,0 +1,53 @@
+.recipe-detail-image {
+    margin-top: 1rem;
+
+  @media(min-width:50rem){
+
+  	width:50%;
+  }
+
+  @media(min-width:64rem){
+
+  	width:50%;
+  }
+
+
+  @media(min-width:41rem){
+
+  	width:60%;
+  }
+	
+}
+.recipe-thumbs {
+    width: 100%;
+    margin: 1rem 0;
+    display: flex;
+
+    img {
+        padding: 0 0.5rem;
+     	
+
+    }
+
+    @media(min-width:50rem){
+	   	
+	  	width:50%;
+	  }
+
+
+	   @media(min-width:41rem){
+
+  		width:60%;
+  	}
+}
+
+
+
+h2{
+
+     @include styling-text('Open Sans',300,2em,#666);
+  
+}
+
+
+

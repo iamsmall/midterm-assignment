@@ -1,0 +1,15 @@
+{
+  "name": "recipe1810", 
+  "title": "Hamburger", 
+  "date": "2013-09-01", 
+  "description": "Hamburger is one of a family's favorite meals. Everyone loves hamburgers.", 
+  "mainImageUrl": "img/home/lasagna-2.png",
+  "suggestedRecipe": "french-fries.jpg",
+  "suggestedRecipeTitle":"Potato Wedges",
+  "suggestedRecipeTxt":"Potato Wedges would be a great and easy addition to this meal!",
+  "images": ["hamburger.png","hamburger-2.jpg","hamburger-3copy.jpg","hamburger-4.jpg"],
+  "ingredients": ["hamburger buns", "tomatoes", "onions", "ground beef", "garlic powder", "cheese"]
+  
+}
+
+
